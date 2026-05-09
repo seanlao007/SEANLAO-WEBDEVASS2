@@ -1,14 +1,14 @@
 /* =========================================================
-   SUBPAGE 2 – PHOTOGRAPHY GALLERY (MACOS WINDOW STYLE)
-   =========================================================
-   This is Subpage 2 of my photography section.
+   SUBPAGE 2 – PHOTOGRAPHY GALLERY (MACOS WINDOW STYLE)
+   =========================================================
+   This is Subpage 2 of my photography section.
 
-   The layout is inspired by a macOS-style window interface,
-   so it feels like browsing a desktop photo gallery rather
-   than a normal website.
+   The layout is inspired by a macOS-style window interface,
+   so it feels like browsing a desktop photo gallery rather
+   than a normal website.
 
-   It is designed to match my overall aesthetic and keep a
-   consistent visual identity across both photography pages.
+   It is designed to match my overall aesthetic and keep a
+   consistent visual identity across both photography pages.
 ========================================================= */
 
 
@@ -33,8 +33,8 @@ body {
 }
 
 /* =========================================================
-   SIDEBAR NAVIGATION (shared across photography section)
-   ========================================================= */
+   SIDEBAR NAVIGATION (shared across photography section)
+   ========================================================= */
 
 /* Sidebar container (fixed navigation bar) */
 .sidebar {
@@ -99,8 +99,8 @@ body {
 .star-logo { width: 80px; }
 
 /* =========================================================
-   MAIN GALLERY WINDOW (macOS-style layout container)
-   ========================================================= */
+   MAIN GALLERY WINDOW (macOS-style layout container)
+   ========================================================= */
 
 /* main content background area */
 .main-content {
@@ -129,8 +129,8 @@ body {
 }
 
 /* =========================================================
-   INNER SIDEBAR (album navigation inside window)
-   ========================================================= */
+   INNER SIDEBAR (album navigation inside window)
+   ========================================================= */
 
 /* inside sidebar panel */
 .inner-sidebar {
@@ -180,8 +180,8 @@ body {
 }
 
 /* =========================================================
-   GALLERY VIEW (photo display area)
-   ========================================================= */
+   GALLERY VIEW (photo display area)
+   ========================================================= */
 
 /* right side gallery container */
 .gallery-view {
@@ -271,8 +271,8 @@ h1 {
 }
 
 /* =========================================================
-   PHOTO GRID (main image layout)
-   ========================================================= */
+   PHOTO GRID (main image layout)
+   ========================================================= */
 
 /* scrollable photo container */
 .photo-container {
