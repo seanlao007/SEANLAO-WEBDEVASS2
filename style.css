@@ -245,3 +245,230 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+
+/* GLIMPSES TITLE — bold stylized header using retro-pop shadow and lime fill */
+.glimpses-title {
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background: #ccff90;
+    padding: 6px 22px;
+    border-radius: 50px;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    display: inline-block;
+    border: 2px solid #000;
+    box-shadow: 6px 6px 0px #d61d67;
+}
+
+
+/* SCRAPBOOK ROW — organizes visual content into side-by-side spreads */
+.scrapbook-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+
+/* VIDEO SPREAD — frame for video content styled like a physical photo mount */
+.video-spread {
+    flex: 1;
+    max-width: 550px;
+    background: #fff;
+    padding: 10px;
+    position: relative;
+    border: 8px solid #fff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+
+/* SCRAPBOOK VIDEO — keeps video content bordered and sharp like a TV monitor */
+.scrapbook-video {
+    width: 100%;
+    display: block;
+    border: 1px solid #000;
+}
+
+
+/* VIDEO CAPTION — typewriter-style text inspired by 90s scrapbook journaling */
+.video-caption {
+    font-family: 'Courier New', monospace;
+    text-align: right;
+    font-size: 11px;
+    margin-top: 8px;
+    color: #555;
+}
+
+
+/* COLLAGE SIDE — alignment wrapper for layered polaroid collections */
+.collage-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* COLLAGE GRID — controls the spacing between clustered scrapbook photos */
+.collage-grid {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+
+/* POLAROID — creates iconic photo frames with custom tilts for "messy" charm */
+.polaroid {
+    background: #fff;
+    padding: 8px 8px 25px 8px;
+    border: 1px solid #eee;
+    box-shadow: 6px 6px 15px rgba(0,0,0,0.1);
+    width: 170px;
+    transform: rotate(3deg);
+}
+
+
+/* ROTATE LEFT — counter-rotation to add variety to polaroid arrangements */
+.rotate-left { transform: rotate(-5deg); }
+
+
+/* POLAROID IMAGE — ensures photos fit perfectly inside the nostalgic frames */
+.polaroid img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+}
+
+
+/* COLLAGE CAPTION — text container for journaling-style photo descriptions */
+.collage-caption {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/* COLLAGE TEXT — italicized typewriter font for an authentic scrapbook vibe */
+.collage-caption p {
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    color: #464a40;
+    line-height: 1.4;
+    max-width: 300px;
+    font-style: italic;
+}
+
+
+/* ART SHOWCASE TITLE — vibrant teal header to separate creative project areas */
+.art-showcase-title {
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background: #33ffcc; 
+    padding: 6px 22px;
+    border-radius: 50px;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    display: inline-block;
+    border: 2px solid #000;
+    box-shadow: 6px 6px 0px #d61d67;
+}
+
+
+/* LANDSCAPE FEATURE — container for wide creative work presentations */
+.landscape-feature {
+    width: 100%;
+    max-width: 950px;
+    position: relative;
+    margin-top: 20px;
+}
+
+
+/* BIG LANDSCAPE IMAGE — adds a dashed border for a DIY cut-out aesthetic */
+.big-landscape-img {
+    width: 100%;
+    height: auto;
+    border: 1px dashed rgba(214, 29, 103, 0.2);
+    border-radius: 15px;
+    padding: 8px;
+    background: transparent;
+}
+
+
+/* TAPE — custom UI elements made to look like decorative washi tape */
+.tape {
+    position: absolute;
+    background: rgba(204, 255, 144, 0.6);
+    width: 80px;
+    height: 25px;
+    z-index: 10;
+}
+
+
+/* TAPE TOP — centres tape at the top of an element like a stuck poster */
+.tape-top { top: -12px; left: 50%; transform: translateX(-50%) rotate(-2deg); }
+
+
+/* TAPE CORNER L — adds decorative diagonal tape to the left corner */
+.tape-corner-l { top: -10px; left: -15px; transform: rotate(-45deg); }
+
+
+/* TAPE CORNER R — adds decorative diagonal tape to the right corner */
+.tape-corner-r { top: -10px; right: -15px; transform: rotate(45deg); }
+
+
+/* STICKY MARQUEE — scrolling banner inspired by early 2000s web animations */
+.sticky-marquee {
+    position: fixed;
+    bottom: 0;
+    left: 240px; 
+    width: calc(100% - 240px);
+    background: #ccff90; 
+    color: #333; 
+    padding: 6px 0; 
+    overflow: hidden;
+    white-space: nowrap;
+    z-index: 1000;
+    border-top: 3px solid #d61d67; 
+    display: flex;
+    align-items: center;
+}
+
+
+/* MARQUEE CONTENT — powers the infinite scrolling motion of footer text */
+.marquee-content {
+    display: flex;
+    align-items: center;
+    animation: scroll-left 25s linear infinite;
+}
+
+
+/* MARQUEE PIXEL — scales pixel art icons for sharp retro footer visuals */
+.marquee-pixel {
+    height: 30px; 
+    width: auto;
+    margin: 0 30px;
+    image-rendering: pixelated; 
+}
+
+
+/* MARQUEE TEXT — bold rounded typography for a professional yet playful vibe */
+.marquee-content span {
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+/* SCROLL LEFT KEYFRAME — defines the smooth horizontal loop animation */
+@keyframes scroll-left {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
